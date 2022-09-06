@@ -1,0 +1,57 @@
+“Ejecutando script mult.sh…”
+“”
+PROGRAMA LARGO
+
+Running from 2048 to 2304 in steps of 32, 5 times each N (both slow and fast programs).
+Running 5 times 2048 and 2080 out of 2304...
+Running 5 times 2112 and 2144 out of 2304...
+Running 5 times 2176 and 2208 out of 2304...
+Running 5 times 2240 and 2272 out of 2304...
+Running 5 times 2304 out of 2304...
+N = 2048 => Average running time (seconds): mTime: 379.3681698; mtTime: 23.5900508
+N = 2080 => Average running time (seconds): mTime: 51.9579344; mtTime: 24.4780558
+N = 2112 => Average running time (seconds): mTime: 79.4577810; mtTime: 25.6335820
+N = 2144 => Average running time (seconds): mTime: 63.2884564; mtTime: 26.7971050
+N = 2176 => Average running time (seconds): mTime: 86.5286230; mtTime: 28.0412704
+N = 2208 => Average running time (seconds): mTime: 73.8842536; mtTime: 29.2725662
+N = 2240 => Average running time (seconds): mTime: 94.7180128; mtTime: 30.5737452
+N = 2272 => Average running time (seconds): mTime: 87.3517758; mtTime: 31.8793438
+N = 2304 => Average running time (seconds): mTime: 104.7260234; mtTime: 33.3662168
+
+
+
+Running with cachegrind to test cache misses...
+
+Size: 2048 out of 2304...
+N = 2048 => Normal multiplication data cache (D1) misses:		read:	8,622,752,490;	write:	7,345,529
+N = 2048 => Transpose multiplication data cache (D1) misses:		read:	1,082,093,848;	write:	1,574,525
+Size: 2080 out of 2304...
+N = 2080 => Normal multiplication data cache (D1) misses:		read:	9,626,609,900;	write:	1,462,983
+N = 2080 => Transpose multiplication data cache (D1) misses:		read:	1,135,307,683;	write:	1,827,916
+Size: 2112 out of 2304...
+N = 2112 => Normal multiplication data cache (D1) misses:		read:	9,752,957,712;	write:	1,897,883
+N = 2112 => Transpose multiplication data cache (D1) misses:		read:	1,187,033,950;	write:	1,826,568
+Size: 2144 out of 2304...
+N = 2144 => Normal multiplication data cache (D1) misses:		read:	10,543,159,010;	write:	1,563,016
+N = 2144 => Transpose multiplication data cache (D1) misses:		read:	1,243,247,890;	write:	1,944,183
+Size: 2176 out of 2304...
+N = 2176 => Normal multiplication data cache (D1) misses:		read:	10,488,213,557;	write:	2,911,485
+N = 2176 => Transpose multiplication data cache (D1) misses:		read:	1,298,471,762;	write:	2,125,741
+Size: 2208 out of 2304...
+N = 2208 => Normal multiplication data cache (D1) misses:		read:	11,516,134,234;	write:	1,673,345
+N = 2208 => Transpose multiplication data cache (D1) misses:		read:	1,357,823,138;	write:	2,064,016
+Size: 2240 out of 2304...
+N = 2240 => Normal multiplication data cache (D1) misses:		read:	11,635,944,853;	write:	2,184,453
+N = 2240 => Transpose multiplication data cache (D1) misses:		read:	1,416,093,610;	write:	2,080,610
+Size: 2272 out of 2304...
+N = 2272 => Normal multiplication data cache (D1) misses:		read:	12,547,176,054;	write:	1,780,007
+N = 2272 => Transpose multiplication data cache (D1) misses:		read:	1,479,233,035;	write:	2,187,469
+Size: 2304 out of 2304...
+N = 2304 => Normal multiplication data cache (D1) misses:		read:	12,345,872,100;	write:	5,218,942
+N = 2304 => Transpose multiplication data cache (D1) misses:		read:	1,542,044,554;	write:	2,877,606
+
+
+
+Generating plots ...
+Could not find/open font when opening font "arial", using internal non-scalable font
+Could not find/open font when opening font "arial", using internal non-scalable font

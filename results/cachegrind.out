@@ -1,0 +1,133 @@
+“Ejecutando script cachegrind.sh…”
+“”
+PROGRAMA LARGO
+Running from 5584 to 6096 in steps of 64 (both slow and fast programs).
+
+
+FIRST LEVEL CACHE SIZE 1024 BYTES
+
+Running N: 5584 out of 6096...
+N = 5584 => Slow data cache (D1) misses:	read:	90,762,581;	write:	33,108,577
+N = 5584 => Fast data cache (D1) misses:	read:	57,877,026;	write:	33,108,578
+Running N: 5648 out of 6096...
+N = 5648 => Slow data cache (D1) misses:	read:	92,791,544;	write:	33,894,468
+N = 5648 => Fast data cache (D1) misses:	read:	59,147,819;	write:	33,894,469
+Running N: 5712 out of 6096...
+N = 5712 => Slow data cache (D1) misses:	read:	94,970,119;	write:	34,644,249
+N = 5712 => Fast data cache (D1) misses:	read:	60,559,620;	write:	34,644,250
+Running N: 5776 out of 6096...
+N = 5776 => Slow data cache (D1) misses:	read:	97,045,419;	write:	35,448,077
+N = 5776 => Fast data cache (D1) misses:	read:	61,859,470;	write:	35,448,078
+Running N: 5840 out of 6096...
+N = 5840 => Slow data cache (D1) misses:	read:	99,273,158;	write:	36,214,766
+N = 5840 => Fast data cache (D1) misses:	read:	63,303,155;	write:	36,214,767
+Running N: 5904 out of 6096...
+N = 5904 => Slow data cache (D1) misses:	read:	101,394,623;	write:	37,036,491
+N = 5904 => Fast data cache (D1) misses:	read:	64,631,890;	write:	37,036,492
+Running N: 5968 out of 6096...
+N = 5968 => Slow data cache (D1) misses:	read:	103,671,468;	write:	37,820,101
+N = 5968 => Fast data cache (D1) misses:	read:	66,107,401;	write:	37,820,102
+Running N: 6032 out of 6096...
+N = 6032 => Slow data cache (D1) misses:	read:	105,839,171;	write:	38,659,722
+N = 6032 => Fast data cache (D1) misses:	read:	67,465,094;	write:	38,659,723
+Running N: 6096 out of 6096...
+N = 6096 => Slow data cache (D1) misses:	read:	108,165,113;	write:	39,460,236
+N = 6096 => Fast data cache (D1) misses:	read:	68,972,422;	write:	39,460,237
+
+
+FIRST LEVEL CACHE SIZE 2048 BYTES
+
+Running N: 5584 out of 6096...
+N = 5584 => Slow data cache (D1) misses:	read:	58,928,803;	write:	13,485,987
+N = 5584 => Fast data cache (D1) misses:	read:	26,895,492;	write:	13,485,988
+Running N: 5648 out of 6096...
+N = 5648 => Slow data cache (D1) misses:	read:	60,287,441;	write:	13,828,359
+N = 5648 => Fast data cache (D1) misses:	read:	27,515,628;	write:	13,828,360
+Running N: 5712 out of 6096...
+N = 5712 => Slow data cache (D1) misses:	read:	61,651,446;	write:	14,133,952
+N = 5712 => Fast data cache (D1) misses:	read:	28,132,722;	write:	14,133,953
+Running N: 5776 out of 6096...
+N = 5776 => Slow data cache (D1) misses:	read:	62,953,806;	write:	14,441,497
+N = 5776 => Fast data cache (D1) misses:	read:	28,679,748;	write:	14,441,498
+Running N: 5840 out of 6096...
+N = 5840 => Slow data cache (D1) misses:	read:	64,455,024;	write:	14,752,239
+N = 5840 => Fast data cache (D1) misses:	read:	29,417,217;	write:	14,752,240
+Running N: 5904 out of 6096...
+N = 5904 => Slow data cache (D1) misses:	read:	65,875,587;	write:	15,110,219
+N = 5904 => Fast data cache (D1) misses:	read:	30,065,614;	write:	15,110,220
+Running N: 5968 out of 6096...
+N = 5968 => Slow data cache (D1) misses:	read:	67,301,098;	write:	15,429,615
+N = 5968 => Fast data cache (D1) misses:	read:	30,710,550;	write:	15,429,616
+Running N: 6032 out of 6096...
+N = 6032 => Slow data cache (D1) misses:	read:	68,661,449;	write:	15,750,836
+N = 6032 => Fast data cache (D1) misses:	read:	31,281,903;	write:	15,750,837
+Running N: 6096 out of 6096...
+N = 6096 => Slow data cache (D1) misses:	read:	70,228,885;	write:	16,075,299
+N = 6096 => Fast data cache (D1) misses:	read:	32,051,926;	write:	16,075,300
+
+
+FIRST LEVEL CACHE SIZE 4096 BYTES
+
+Running N: 5584 out of 6096...
+N = 5584 => Slow data cache (D1) misses:	read:	47,062,312;	write:	8,733,551
+N = 5584 => Fast data cache (D1) misses:	read:	15,455,130;	write:	8,733,551
+Running N: 5648 out of 6096...
+N = 5648 => Slow data cache (D1) misses:	read:	48,236,413;	write:	8,972,966
+N = 5648 => Fast data cache (D1) misses:	read:	15,900,552;	write:	8,972,966
+Running N: 5712 out of 6096...
+N = 5712 => Slow data cache (D1) misses:	read:	49,411,435;	write:	9,171,713
+N = 5712 => Fast data cache (D1) misses:	read:	16,338,598;	write:	9,171,713
+Running N: 5776 out of 6096...
+N = 5776 => Slow data cache (D1) misses:	read:	50,434,525;	write:	9,373,130
+N = 5776 => Fast data cache (D1) misses:	read:	16,616,410;	write:	9,373,130
+Running N: 5840 out of 6096...
+N = 5840 => Slow data cache (D1) misses:	read:	51,653,090;	write:	9,576,009
+N = 5840 => Fast data cache (D1) misses:	read:	17,081,385;	write:	9,576,009
+Running N: 5904 out of 6096...
+N = 5904 => Slow data cache (D1) misses:	read:	52,698,995;	write:	9,781,665
+N = 5904 => Fast data cache (D1) misses:	read:	17,365,401;	write:	9,781,665
+Running N: 5968 out of 6096...
+N = 5968 => Slow data cache (D1) misses:	read:	53,756,362;	write:	9,990,286
+N = 5968 => Fast data cache (D1) misses:	read:	17,652,577;	write:	9,990,286
+Running N: 6032 out of 6096...
+N = 6032 => Slow data cache (D1) misses:	read:	54,918,101;	write:	10,199,802
+N = 6032 => Fast data cache (D1) misses:	read:	18,035,814;	write:	10,199,802
+Running N: 6096 out of 6096...
+N = 6096 => Slow data cache (D1) misses:	read:	56,093,431;	write:	10,412,041
+N = 6096 => Fast data cache (D1) misses:	read:	18,424,345;	write:	10,412,041
+
+
+FIRST LEVEL CACHE SIZE 8192 BYTES
+
+Running N: 5584 out of 6096...
+N = 5584 => Slow data cache (D1) misses:	read:	41,091,260;	write:	6,331,314
+N = 5584 => Fast data cache (D1) misses:	read:	9,697,138;	write:	6,331,314
+Running N: 5648 out of 6096...
+N = 5648 => Slow data cache (D1) misses:	read:	42,037,947;	write:	6,474,693
+N = 5648 => Fast data cache (D1) misses:	read:	9,920,076;	write:	6,474,693
+Running N: 5712 out of 6096...
+N = 5712 => Slow data cache (D1) misses:	read:	43,116,976;	write:	6,619,309
+N = 5712 => Fast data cache (D1) misses:	read:	10,267,088;	write:	6,619,309
+Running N: 5776 out of 6096...
+N = 5776 => Slow data cache (D1) misses:	read:	44,042,750;	write:	6,765,924
+N = 5776 => Fast data cache (D1) misses:	read:	10,452,597;	write:	6,765,924
+Running N: 5840 out of 6096...
+N = 5840 => Slow data cache (D1) misses:	read:	45,071,666;	write:	6,914,109
+N = 5840 => Fast data cache (D1) misses:	read:	10,733,017;	write:	6,914,109
+Running N: 5904 out of 6096...
+N = 5904 => Slow data cache (D1) misses:	read:	46,017,896;	write:	7,063,819
+N = 5904 => Fast data cache (D1) misses:	read:	10,922,486;	write:	7,063,819
+Running N: 5968 out of 6096...
+N = 5968 => Slow data cache (D1) misses:	read:	46,974,519;	write:	7,215,507
+N = 5968 => Fast data cache (D1) misses:	read:	11,114,109;	write:	7,215,507
+Running N: 6032 out of 6096...
+N = 6032 => Slow data cache (D1) misses:	read:	47,940,765;	write:	7,368,610
+N = 6032 => Fast data cache (D1) misses:	read:	11,307,111;	write:	7,368,610
+Running N: 6096 out of 6096...
+N = 6096 => Slow data cache (D1) misses:	read:	48,916,933;	write:	7,523,475
+N = 6096 => Fast data cache (D1) misses:	read:	11,501,775;	write:	7,523,475
+
+
+Generating plots...
+Could not find/open font when opening font "arial", using internal non-scalable font
+Could not find/open font when opening font "arial", using internal non-scalable font

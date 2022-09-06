@@ -1,0 +1,844 @@
+“Ejecutando script ex4.sh…”
+“”
+PROGRAMA LARGO
+rm: cannot remove `ex4_results/*': No such file or directory
+
+TESTING HOW VARYING L1 CACHE SIZE AFFECTS READ AND WRITE CACHE MISSES
+
+
+Running from 1024 to 1536 in steps of 64 (both mult and tmult programs).
+
+
+FIRST LEVEL CACHE SIZE 1024 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,633,440;	write:	351,355
+N = 1024 => tmult data cache (D1) misses:	read:	272,070,818;	write:	482,486
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,661,236;	write:	395,170
+N = 1088 => tmult data cache (D1) misses:	read:	326,079,001;	write:	543,192
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,914,131,376;	write:	441,710
+N = 1152 => tmult data cache (D1) misses:	read:	386,800,082;	write:	607,654
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,251,009,980;	write:	490,884
+N = 1216 => tmult data cache (D1) misses:	read:	454,627,281;	write:	675,770
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,625,262,927;	write:	542,687
+N = 1280 => tmult data cache (D1) misses:	read:	529,953,631;	write:	747,538
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,856,524;	write:	597,156
+N = 1344 => tmult data cache (D1) misses:	read:	613,172,620;	write:	823,007
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,756,638;	write:	654,255
+N = 1408 => tmult data cache (D1) misses:	read:	704,677,102;	write:	902,112
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,929,242;	write:	713,830
+N = 1472 => tmult data cache (D1) misses:	read:	804,860,326;	write:	984,744
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,535,341,346;	write:	776,471
+N = 1536 => tmult data cache (D1) misses:	read:	914,116,410;	write:	1,071,425
+
+
+FIRST LEVEL CACHE SIZE 2048 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,454,009;	write:	280,558
+N = 1024 => tmult data cache (D1) misses:	read:	271,892,700;	write:	411,473
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,459,430;	write:	315,678
+N = 1088 => tmult data cache (D1) misses:	read:	325,878,606;	write:	463,520
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,905,662;	write:	352,953
+N = 1152 => tmult data cache (D1) misses:	read:	386,575,847;	write:	518,693
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,759,154;	write:	392,341
+N = 1216 => tmult data cache (D1) misses:	read:	454,378,014;	write:	577,053
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,985,586;	write:	433,844
+N = 1280 => tmult data cache (D1) misses:	read:	529,677,918;	write:	638,521
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,551,376;	write:	477,477
+N = 1344 => tmult data cache (D1) misses:	read:	612,869,116;	write:	703,175
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,422,205;	write:	523,234
+N = 1408 => tmult data cache (D1) misses:	read:	704,344,429;	write:	770,932
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,564,587;	write:	571,100
+N = 1472 => tmult data cache (D1) misses:	read:	804,497,497;	write:	841,854
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,944,452;	write:	621,124
+N = 1536 => tmult data cache (D1) misses:	read:	913,721,402;	write:	915,977
+
+
+FIRST LEVEL CACHE SIZE 4096 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,417,926;	write:	264,285
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,197;	write:	395,854
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,420,006;	write:	298,146
+N = 1088 => tmult data cache (D1) misses:	read:	325,839,623;	write:	446,608
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,862,712;	write:	333,990
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,469;	write:	500,390
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,712,325;	write:	371,930
+N = 1216 => tmult data cache (D1) misses:	read:	454,331,646;	write:	557,280
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,934,896;	write:	411,860
+N = 1280 => tmult data cache (D1) misses:	read:	529,627,787;	write:	617,191
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,496,478;	write:	453,907
+N = 1344 => tmult data cache (D1) misses:	read:	612,814,659;	write:	680,227
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,363,062;	write:	497,920
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,832;	write:	746,276
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,500,800;	write:	544,069
+N = 1472 => tmult data cache (D1) misses:	read:	804,434,182;	write:	815,465
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,876,025;	write:	592,179
+N = 1536 => tmult data cache (D1) misses:	read:	913,653,505;	write:	887,651
+
+
+FIRST LEVEL CACHE SIZE 8192 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,414,253;	write:	263,518
+N = 1024 => tmult data cache (D1) misses:	read:	271,853,163;	write:	394,743
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,415,929;	write:	297,261
+N = 1088 => tmult data cache (D1) misses:	read:	325,835,465;	write:	445,414
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,858,725;	write:	333,141
+N = 1152 => tmult data cache (D1) misses:	read:	386,529,088;	write:	499,189
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,708,429;	write:	371,075
+N = 1216 => tmult data cache (D1) misses:	read:	454,327,490;	write:	556,102
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,931,167;	write:	411,081
+N = 1280 => tmult data cache (D1) misses:	read:	529,623,734;	write:	616,062
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,492,359;	write:	453,006
+N = 1344 => tmult data cache (D1) misses:	read:	612,810,473;	write:	679,016
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,359,025;	write:	497,075
+N = 1408 => tmult data cache (D1) misses:	read:	704,281,436;	write:	745,076
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,496,902;	write:	543,202
+N = 1472 => tmult data cache (D1) misses:	read:	804,430,005;	write:	814,273
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,872,191;	write:	591,395
+N = 1536 => tmult data cache (D1) misses:	read:	913,649,417;	write:	886,521
+
+
+FIRST LEVEL CACHE SIZE 16384 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,084,944,819;	write:	262,933
+N = 1024 => tmult data cache (D1) misses:	read:	143,087,257;	write:	394,126
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,419,732,604;	write:	296,749
+N = 1088 => tmult data cache (D1) misses:	read:	215,456,887;	write:	444,853
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,742,436,707;	write:	332,614
+N = 1152 => tmult data cache (D1) misses:	read:	295,731,197;	write:	498,640
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,129,404,341;	write:	370,531
+N = 1216 => tmult data cache (D1) misses:	read:	384,369,926;	write:	555,503
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,526,956,492;	write:	410,485
+N = 1280 => tmult data cache (D1) misses:	read:	480,180,685;	write:	615,439
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	2,986,505,976;	write:	452,493
+N = 1344 => tmult data cache (D1) misses:	read:	582,539,367;	write:	678,447
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,465,718,063;	write:	496,552
+N = 1408 => tmult data cache (D1) misses:	read:	689,811,884;	write:	744,530
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,984,976,565;	write:	542,659
+N = 1472 => tmult data cache (D1) misses:	read:	800,741,202;	write:	813,684
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,865,826;	write:	590,807
+N = 1536 => tmult data cache (D1) misses:	read:	913,645,920;	write:	885,905
+
+
+Generating plots...
+Could not find/open font when opening font "arial", using internal non-scalable font
+Could not find/open font when opening font "arial", using internal non-scalable font
+
+
+
+
+
+TESTING HOW VARYING LL CACHE SIZE AFFECTS READ AND WRITE CACHE MISSES
+
+
+Running from 1024 to 1536 in steps of 64 (both mult and tmult programs).
+
+
+LAST LEVEL CACHE SIZE 2097152 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,417,926;	write:	264,285
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,197;	write:	395,854
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,420,006;	write:	298,146
+N = 1088 => tmult data cache (D1) misses:	read:	325,839,623;	write:	446,608
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,862,712;	write:	333,990
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,469;	write:	500,390
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,712,325;	write:	371,930
+N = 1216 => tmult data cache (D1) misses:	read:	454,331,646;	write:	557,280
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,934,896;	write:	411,860
+N = 1280 => tmult data cache (D1) misses:	read:	529,627,787;	write:	617,191
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,496,478;	write:	453,907
+N = 1344 => tmult data cache (D1) misses:	read:	612,814,659;	write:	680,227
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,363,062;	write:	497,920
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,832;	write:	746,276
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,500,800;	write:	544,069
+N = 1472 => tmult data cache (D1) misses:	read:	804,434,182;	write:	815,465
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,876,025;	write:	592,179
+N = 1536 => tmult data cache (D1) misses:	read:	913,653,505;	write:	887,651
+
+
+LAST LEVEL CACHE SIZE 4194304 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,417,926;	write:	264,285
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,197;	write:	395,854
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,420,006;	write:	298,146
+N = 1088 => tmult data cache (D1) misses:	read:	325,839,623;	write:	446,608
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,862,712;	write:	333,990
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,469;	write:	500,390
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,712,325;	write:	371,930
+N = 1216 => tmult data cache (D1) misses:	read:	454,331,646;	write:	557,280
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,934,896;	write:	411,860
+N = 1280 => tmult data cache (D1) misses:	read:	529,627,787;	write:	617,191
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,496,478;	write:	453,907
+N = 1344 => tmult data cache (D1) misses:	read:	612,814,659;	write:	680,227
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,363,062;	write:	497,920
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,832;	write:	746,276
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,500,800;	write:	544,069
+N = 1472 => tmult data cache (D1) misses:	read:	804,434,182;	write:	815,465
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,876,025;	write:	592,179
+N = 1536 => tmult data cache (D1) misses:	read:	913,653,505;	write:	887,651
+
+
+LAST LEVEL CACHE SIZE 8388608 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,417,926;	write:	264,285
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,197;	write:	395,854
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,420,006;	write:	298,146
+N = 1088 => tmult data cache (D1) misses:	read:	325,839,623;	write:	446,608
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,862,712;	write:	333,990
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,469;	write:	500,390
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,712,325;	write:	371,930
+N = 1216 => tmult data cache (D1) misses:	read:	454,331,646;	write:	557,280
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,934,896;	write:	411,860
+N = 1280 => tmult data cache (D1) misses:	read:	529,627,787;	write:	617,191
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,496,478;	write:	453,907
+N = 1344 => tmult data cache (D1) misses:	read:	612,814,659;	write:	680,227
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,363,062;	write:	497,920
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,832;	write:	746,276
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,500,800;	write:	544,069
+N = 1472 => tmult data cache (D1) misses:	read:	804,434,182;	write:	815,465
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,876,025;	write:	592,179
+N = 1536 => tmult data cache (D1) misses:	read:	913,653,505;	write:	887,651
+
+
+LAST LEVEL CACHE SIZE 16777216 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,417,926;	write:	264,285
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,197;	write:	395,854
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,420,006;	write:	298,146
+N = 1088 => tmult data cache (D1) misses:	read:	325,839,623;	write:	446,608
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,862,712;	write:	333,990
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,469;	write:	500,390
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,712,325;	write:	371,930
+N = 1216 => tmult data cache (D1) misses:	read:	454,331,646;	write:	557,280
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,934,896;	write:	411,860
+N = 1280 => tmult data cache (D1) misses:	read:	529,627,787;	write:	617,191
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,496,478;	write:	453,907
+N = 1344 => tmult data cache (D1) misses:	read:	612,814,659;	write:	680,227
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,363,062;	write:	497,920
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,832;	write:	746,276
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,500,800;	write:	544,069
+N = 1472 => tmult data cache (D1) misses:	read:	804,434,182;	write:	815,465
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,876,025;	write:	592,179
+N = 1536 => tmult data cache (D1) misses:	read:	913,653,505;	write:	887,651
+
+
+LAST LEVEL CACHE SIZE 33554432 BYTES
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,417,926;	write:	264,285
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,197;	write:	395,857
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,420,006;	write:	298,146
+N = 1088 => tmult data cache (D1) misses:	read:	325,839,623;	write:	446,608
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,862,712;	write:	333,990
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,469;	write:	500,390
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,712,325;	write:	371,930
+N = 1216 => tmult data cache (D1) misses:	read:	454,331,646;	write:	557,280
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,934,896;	write:	411,860
+N = 1280 => tmult data cache (D1) misses:	read:	529,627,787;	write:	617,191
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,496,478;	write:	453,907
+N = 1344 => tmult data cache (D1) misses:	read:	612,814,659;	write:	680,227
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,363,062;	write:	497,920
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,832;	write:	746,276
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,500,800;	write:	544,069
+N = 1472 => tmult data cache (D1) misses:	read:	804,434,182;	write:	815,465
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,876,025;	write:	592,179
+N = 1536 => tmult data cache (D1) misses:	read:	913,653,505;	write:	887,651
+
+
+Generating plots...
+Could not find/open font when opening font "arial", using internal non-scalable font
+Could not find/open font when opening font "arial", using internal non-scalable font
+
+
+
+
+TESTING HOW VARYING L1 CACHE SIZE WAYS READ AND WRITE CACHE MISSES
+
+
+Running from 1024 to 1536 in steps of 64 (both mult and tmult programs).
+
+
+FIRST LEVEL CACHE: 1 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	2,693,673,245;	write:	1,074,337,672
+N = 1024 => tmult data cache (D1) misses:	read:	2,151,665,384;	write:	18,196,300
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,874,856,952;	write:	195,671,409
+N = 1088 => tmult data cache (D1) misses:	read:	639,563,710;	write:	39,095,369
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	2,452,036,505;	write:	415,563,037
+N = 1152 => tmult data cache (D1) misses:	read:	1,088,121,159;	write:	43,619,567
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,617,345,126;	write:	273,463,294
+N = 1216 => tmult data cache (D1) misses:	read:	892,521,291;	write:	54,861,608
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	3,988,600,504;	write:	1,076,528,505
+N = 1280 => tmult data cache (D1) misses:	read:	2,394,497,328;	write:	51,502,173
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,533,248,045;	write:	368,907,877
+N = 1344 => tmult data cache (D1) misses:	read:	1,204,123,406;	write:	73,688,211
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	4,475,611,385;	write:	758,172,777
+N = 1408 => tmult data cache (D1) misses:	read:	1,984,671,607;	write:	78,862,560
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	4,640,752,436;	write:	483,722,346
+N = 1472 => tmult data cache (D1) misses:	read:	1,580,469,673;	write:	95,731,356
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	9,090,079,941;	write:	3,625,212,285
+N = 1536 => tmult data cache (D1) misses:	read:	7,257,143,054;	write:	59,809,144
+
+
+FIRST LEVEL CACHE: 2 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,403,107,136;	write:	42,227,085
+N = 1024 => tmult data cache (D1) misses:	read:	330,620,569;	write:	33,989,850
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,650,290,425;	write:	25,620,071
+N = 1088 => tmult data cache (D1) misses:	read:	343,668,332;	write:	10,633,045
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,991,711,441;	write:	48,414,983
+N = 1152 => tmult data cache (D1) misses:	read:	428,890,288;	write:	24,705,889
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,303,538,090;	write:	35,679,267
+N = 1216 => tmult data cache (D1) misses:	read:	479,167,635;	write:	14,746,733
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,739,572,872;	write:	82,361,111
+N = 1280 => tmult data cache (D1) misses:	read:	644,381,033;	write:	66,213,763
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,109,785,904;	write:	48,081,843
+N = 1344 => tmult data cache (D1) misses:	read:	646,290,487;	write:	19,807,394
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,635,368,974;	write:	88,104,645
+N = 1408 => tmult data cache (D1) misses:	read:	781,300,793;	write:	44,757,570
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	4,085,116,633;	write:	63,073,683
+N = 1472 => tmult data cache (D1) misses:	read:	848,360,668;	write:	25,913,104
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,732,983,809;	write:	142,190,903
+N = 1536 => tmult data cache (D1) misses:	read:	1,111,926,628;	write:	114,220,227
+
+
+FIRST LEVEL CACHE: 4 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,415,686;	write:	264,554
+N = 1024 => tmult data cache (D1) misses:	read:	271,858,867;	write:	395,564
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,417,663;	write:	298,463
+N = 1088 => tmult data cache (D1) misses:	read:	325,841,430;	write:	446,219
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,860,220;	write:	334,250
+N = 1152 => tmult data cache (D1) misses:	read:	386,535,397;	write:	500,084
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,709,744;	write:	372,237
+N = 1216 => tmult data cache (D1) misses:	read:	454,333,708;	write:	556,873
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,932,161;	write:	412,141
+N = 1280 => tmult data cache (D1) misses:	read:	529,629,972;	write:	616,889
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,493,634;	write:	454,215
+N = 1344 => tmult data cache (D1) misses:	read:	612,816,981;	write:	679,830
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,360,053;	write:	498,198
+N = 1408 => tmult data cache (D1) misses:	read:	704,288,274;	write:	745,973
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,497,704;	write:	544,359
+N = 1472 => tmult data cache (D1) misses:	read:	804,436,754;	write:	815,049
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,872,779;	write:	592,468
+N = 1536 => tmult data cache (D1) misses:	read:	913,656,204;	write:	887,370
+
+
+FIRST LEVEL CACHE: 8 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,415,178;	write:	264,603
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,367;	write:	395,485
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,417,168;	write:	298,472
+N = 1088 => tmult data cache (D1) misses:	read:	325,840,116;	write:	446,221
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,859,674;	write:	334,284
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,872;	write:	499,983
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,709,200;	write:	372,224
+N = 1216 => tmult data cache (D1) misses:	read:	454,332,312;	write:	556,865
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,931,539;	write:	412,164
+N = 1280 => tmult data cache (D1) misses:	read:	529,628,363;	write:	616,779
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,493,060;	write:	454,207
+N = 1344 => tmult data cache (D1) misses:	read:	612,815,565;	write:	679,817
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,359,505;	write:	498,244
+N = 1408 => tmult data cache (D1) misses:	read:	704,286,719;	write:	745,866
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,497,144;	write:	544,334
+N = 1472 => tmult data cache (D1) misses:	read:	804,435,322;	write:	815,038
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,872,116;	write:	592,499
+N = 1536 => tmult data cache (D1) misses:	read:	913,654,608;	write:	887,271
+
+
+FIRST LEVEL CACHE: 16 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,414,681;	write:	264,729
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,770;	write:	395,339
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,416,626;	write:	298,552
+N = 1088 => tmult data cache (D1) misses:	read:	325,840,499;	write:	446,083
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,859,183;	write:	334,400
+N = 1152 => tmult data cache (D1) misses:	read:	386,534,304;	write:	499,865
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,708,733;	write:	372,329
+N = 1216 => tmult data cache (D1) misses:	read:	454,332,746;	write:	556,732
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,931,057;	write:	412,273
+N = 1280 => tmult data cache (D1) misses:	read:	529,628,801;	write:	616,648
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,492,566;	write:	454,319
+N = 1344 => tmult data cache (D1) misses:	read:	612,815,990;	write:	679,691
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,358,985;	write:	498,335
+N = 1408 => tmult data cache (D1) misses:	read:	704,287,157;	write:	745,741
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,496,671;	write:	544,467
+N = 1472 => tmult data cache (D1) misses:	read:	804,435,801;	write:	814,915
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,871,670;	write:	592,634
+N = 1536 => tmult data cache (D1) misses:	read:	913,655,016;	write:	887,155
+
+
+Generating plots...
+Could not find/open font when opening font "arial", using internal non-scalable font
+Could not find/open font when opening font "arial", using internal non-scalable font
+
+
+
+
+
+TESTING HOW VARYING LL CACHE WAYS AFFECTS READ AND WRITE CACHE MISSES
+
+
+Running from 1024 to 1536 in steps of 64 (both mult and tmult programs).
+
+
+LAST LEVEL CACHE: 1 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,416,058;	write:	264,599
+N = 1024 => tmult data cache (D1) misses:	read:	271,856,310;	write:	395,990
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,418,093;	write:	298,405
+N = 1088 => tmult data cache (D1) misses:	read:	325,838,902;	write:	446,629
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,860,595;	write:	334,301
+N = 1152 => tmult data cache (D1) misses:	read:	386,532,597;	write:	500,529
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,710,151;	write:	372,173
+N = 1216 => tmult data cache (D1) misses:	read:	454,330,911;	write:	557,283
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,932,529;	write:	412,161
+N = 1280 => tmult data cache (D1) misses:	read:	529,626,962;	write:	617,309
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,494,053;	write:	454,150
+N = 1344 => tmult data cache (D1) misses:	read:	612,813,969;	write:	680,239
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,360,448;	write:	498,230
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,013;	write:	746,403
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,498,108;	write:	544,300
+N = 1472 => tmult data cache (D1) misses:	read:	804,433,430;	write:	815,461
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,873,160;	write:	592,499
+N = 1536 => tmult data cache (D1) misses:	read:	913,652,760;	write:	887,795
+
+
+LAST LEVEL CACHE: 2 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,416,058;	write:	264,599
+N = 1024 => tmult data cache (D1) misses:	read:	271,856,310;	write:	395,990
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,418,093;	write:	298,405
+N = 1088 => tmult data cache (D1) misses:	read:	325,838,902;	write:	446,629
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,860,595;	write:	334,301
+N = 1152 => tmult data cache (D1) misses:	read:	386,532,597;	write:	500,529
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,710,151;	write:	372,173
+N = 1216 => tmult data cache (D1) misses:	read:	454,330,911;	write:	557,283
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,932,529;	write:	412,161
+N = 1280 => tmult data cache (D1) misses:	read:	529,626,962;	write:	617,309
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,494,053;	write:	454,150
+N = 1344 => tmult data cache (D1) misses:	read:	612,813,969;	write:	680,239
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,360,448;	write:	498,230
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,013;	write:	746,403
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,498,108;	write:	544,300
+N = 1472 => tmult data cache (D1) misses:	read:	804,433,430;	write:	815,461
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,873,160;	write:	592,499
+N = 1536 => tmult data cache (D1) misses:	read:	913,652,760;	write:	887,795
+
+
+LAST LEVEL CACHE: 4 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,416,058;	write:	264,599
+N = 1024 => tmult data cache (D1) misses:	read:	271,856,310;	write:	395,990
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,418,093;	write:	298,405
+N = 1088 => tmult data cache (D1) misses:	read:	325,838,902;	write:	446,629
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,860,595;	write:	334,301
+N = 1152 => tmult data cache (D1) misses:	read:	386,532,597;	write:	500,529
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,710,151;	write:	372,173
+N = 1216 => tmult data cache (D1) misses:	read:	454,330,911;	write:	557,283
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,932,529;	write:	412,161
+N = 1280 => tmult data cache (D1) misses:	read:	529,626,962;	write:	617,309
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,494,053;	write:	454,150
+N = 1344 => tmult data cache (D1) misses:	read:	612,813,969;	write:	680,239
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,360,448;	write:	498,230
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,013;	write:	746,403
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,498,108;	write:	544,300
+N = 1472 => tmult data cache (D1) misses:	read:	804,433,430;	write:	815,461
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,873,160;	write:	592,499
+N = 1536 => tmult data cache (D1) misses:	read:	913,652,760;	write:	887,795
+
+
+LAST LEVEL CACHE: 8 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,416,058;	write:	264,599
+N = 1024 => tmult data cache (D1) misses:	read:	271,856,310;	write:	395,990
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,418,093;	write:	298,405
+N = 1088 => tmult data cache (D1) misses:	read:	325,838,902;	write:	446,629
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,860,595;	write:	334,301
+N = 1152 => tmult data cache (D1) misses:	read:	386,532,597;	write:	500,529
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,710,151;	write:	372,173
+N = 1216 => tmult data cache (D1) misses:	read:	454,330,911;	write:	557,283
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,932,529;	write:	412,161
+N = 1280 => tmult data cache (D1) misses:	read:	529,626,962;	write:	617,309
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,494,053;	write:	454,150
+N = 1344 => tmult data cache (D1) misses:	read:	612,813,969;	write:	680,239
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,360,448;	write:	498,230
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,013;	write:	746,403
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,498,108;	write:	544,300
+N = 1472 => tmult data cache (D1) misses:	read:	804,433,430;	write:	815,461
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,873,160;	write:	592,499
+N = 1536 => tmult data cache (D1) misses:	read:	913,652,760;	write:	887,795
+
+
+LAST LEVEL CACHE: 16 WAYS
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,416,058;	write:	264,599
+N = 1024 => tmult data cache (D1) misses:	read:	271,856,310;	write:	395,990
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,418,093;	write:	298,405
+N = 1088 => tmult data cache (D1) misses:	read:	325,838,902;	write:	446,629
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,860,595;	write:	334,301
+N = 1152 => tmult data cache (D1) misses:	read:	386,532,597;	write:	500,529
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,710,151;	write:	372,173
+N = 1216 => tmult data cache (D1) misses:	read:	454,330,911;	write:	557,283
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,932,529;	write:	412,161
+N = 1280 => tmult data cache (D
+
+
+
+TESTING HOW VARYING BLOCK SIZE AFFECTS READ AND WRITE CACHE MISSES
+
+
+Running from 1024 to 1536 in steps of 64 (both mult and tmult programs).
+
+
+LINE SIZE (BLOCK SIZE): 32 
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,611,935,150;	write:	526,958
+N = 1024 => tmult data cache (D1) misses:	read:	540,552,220;	write:	789,512
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,933,361,979;	write:	594,625
+N = 1088 => tmult data cache (D1) misses:	read:	648,111,606;	write:	890,952
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	2,294,906,682;	write:	666,323
+N = 1152 => tmult data cache (D1) misses:	read:	769,068,444;	write:	998,532
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,698,929,326;	write:	742,185
+N = 1216 => tmult data cache (D1) misses:	read:	904,210,246;	write:	1,112,252
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	3,147,788,500;	write:	822,072
+N = 1280 => tmult data cache (D1) misses:	read:	1,054,322,527;	write:	1,232,132
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,643,844,215;	write:	906,124
+N = 1344 => tmult data cache (D1) misses:	read:	1,220,192,556;	write:	1,358,157
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	4,189,454,928;	write:	994,203
+N = 1408 => tmult data cache (D1) misses:	read:	1,402,605,775;	write:	1,490,312
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	4,786,980,747;	write:	1,086,432
+N = 1472 => tmult data cache (D1) misses:	read:	1,602,349,615;	write:	1,628,609
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	5,438,780,532;	write:	1,182,734
+N = 1536 => tmult data cache (D1) misses:	read:	1,820,209,910;	write:	1,773,086
+
+
+LINE SIZE (BLOCK SIZE): 64 
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,344,417,815;	write:	264,409
+N = 1024 => tmult data cache (D1) misses:	read:	271,857,614;	write:	395,693
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,612,419,916;	write:	298,222
+N = 1088 => tmult data cache (D1) misses:	read:	325,840,175;	write:	446,327
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,913,862,606;	write:	334,100
+N = 1152 => tmult data cache (D1) misses:	read:	386,533,898;	write:	500,216
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,250,712,254;	write:	371,992
+N = 1216 => tmult data cache (D1) misses:	read:	454,332,180;	write:	556,978
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,624,934,801;	write:	411,981
+N = 1280 => tmult data cache (D1) misses:	read:	529,628,245;	write:	617,016
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,496,402;	write:	453,975
+N = 1344 => tmult data cache (D1) misses:	read:	612,815,228;	write:	679,930
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,362,949;	write:	498,041
+N = 1408 => tmult data cache (D1) misses:	read:	704,286,296;	write:	746,102
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,500,730;	write:	544,122
+N = 1472 => tmult data cache (D1) misses:	read:	804,434,701;	write:	815,148
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,875,932;	write:	592,314
+N = 1536 => tmult data cache (D1) misses:	read:	913,654,016;	write:	887,495
+
+
+LINE SIZE (BLOCK SIZE): 128 
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,210,137,294;	write:	133,981
+N = 1024 => tmult data cache (D1) misses:	read:	137,510,283;	write:	199,926
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,451,359,550;	write:	150,729
+N = 1088 => tmult data cache (D1) misses:	read:	164,704,659;	write:	225,053
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,722,679,425;	write:	168,827
+N = 1152 => tmult data cache (D1) misses:	read:	195,266,480;	write:	252,174
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	2,025,866,941;	write:	187,611
+N = 1216 => tmult data cache (D1) misses:	read:	229,393,296;	write:	280,375
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,362,691,113;	write:	207,767
+N = 1280 => tmult data cache (D1) misses:	read:	267,280,858;	write:	310,576
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	2,734,921,834;	write:	228,604
+N = 1344 => tmult data cache (D1) misses:	read:	309,126,597;	write:	341,859
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,144,328,118;	write:	250,796
+N = 1408 => tmult data cache (D1) misses:	read:	355,126,247;	write:	375,115
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,592,679,876;	write:	273,676
+N = 1472 => tmult data cache (D1) misses:	read:	405,477,292;	write:	409,469
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,081,746,310;	write:	297,939
+N = 1536 => tmult data cache (D1) misses:	read:	460,375,622;	write:	445,829
+
+
+LINE SIZE (BLOCK SIZE): 256 
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,146,275,214;	write:	576,389
+N = 1024 => tmult data cache (D1) misses:	read:	70,863,456;	write:	228,327
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,374,522,648;	write:	650,358
+N = 1088 => tmult data cache (D1) misses:	read:	84,731,293;	write:	257,292
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,631,236,369;	write:	728,784
+N = 1152 => tmult data cache (D1) misses:	read:	100,298,899;	write:	288,183
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	1,918,058,275;	write:	811,712
+N = 1216 => tmult data cache (D1) misses:	read:	117,665,715;	write:	320,668
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,236,690,583;	write:	899,098
+N = 1280 => tmult data cache (D1) misses:	read:	136,928,987;	write:	355,080
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	2,588,771,684;	write:	990,983
+N = 1344 => tmult data cache (D1) misses:	read:	158,188,021;	write:	391,085
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	2,976,007,158;	write:	1,087,332
+N = 1408 => tmult data cache (D1) misses:	read:	181,540,089;	write:	429,016
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,400,032,092;	write:	1,188,180
+N = 1472 => tmult data cache (D1) misses:	read:	207,084,528;	write:	468,541
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	3,862,555,536;	write:	1,293,487
+N = 1536 => tmult data cache (D1) misses:	read:	234,918,754;	write:	509,992
+
+
+LINE SIZE (BLOCK SIZE): 512 
+
+Running N: 1024 out of 1536...
+N = 1024 => mult data cache (D1) misses:	read:	1,118,864,020;	write:	1,068,646
+N = 1024 => tmult data cache (D1) misses:	read:	46,190,325;	write:	1,085,049
+Running N: 1088 out of 1536...
+N = 1088 => mult data cache (D1) misses:	read:	1,341,215,133;	write:	1,205,976
+N = 1088 => tmult data cache (D1) misses:	read:	54,507,234;	write:	1,224,489
+Running N: 1152 out of 1536...
+N = 1152 => mult data cache (D1) misses:	read:	1,591,235,556;	write:	1,351,658
+N = 1152 => tmult data cache (D1) misses:	read:	63,763,143;	write:	1,372,415
+Running N: 1216 out of 1536...
+N = 1216 => mult data cache (D1) misses:	read:	1,870,537,421;	write:	1,505,628
+N = 1216 => tmult data cache (D1) misses:	read:	73,997,203;	write:	1,528,751
+Running N: 1280 out of 1536...
+N = 1280 => mult data cache (D1) misses:	read:	2,180,753,216;	write:	1,667,950
+N = 1280 => tmult data cache (D1) misses:	read:	85,269,156;	write:	1,693,573
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	2,523,493,927;	write:	1,838,560
+N = 1344 => tmult data cache (D1) misses:	read:	97,617,005;	write:	1,866,805
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	2,900,393,086;	write:	2,017,522
+N = 1408 => tmult data cache (D1) misses:	read:	111,101,540;	write:	2,048,523
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,313,060,677;	write:	2,204,772
+N = 1472 => tmult data cache (D1) misses:	read:	125,759,756;	write:	2,238,651
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	3,763,131,384;	write:	2,400,374
+N = 1536 => tmult data cache (D1) misses:	read:	141,653,600;	write:	2,437,265
+
+
+Generating plots...
+Could not find/open font when opening font "arial", using internal non-scalable font
+Could not find/open font when opening font "arial", using internal non-scalable font1) misses:	read:	529,626,962;	write:	617,309
+Running N: 1344 out of 1536...
+N = 1344 => mult data cache (D1) misses:	read:	3,038,494,053;	write:	454,150
+N = 1344 => tmult data cache (D1) misses:	read:	612,813,969;	write:	680,239
+Running N: 1408 out of 1536...
+N = 1408 => mult data cache (D1) misses:	read:	3,493,360,448;	write:	498,230
+N = 1408 => tmult data cache (D1) misses:	read:	704,285,013;	write:	746,403
+Running N: 1472 out of 1536...
+N = 1472 => mult data cache (D1) misses:	read:	3,991,498,108;	write:	544,300
+N = 1472 => tmult data cache (D1) misses:	read:	804,433,430;	write:	815,461
+Running N: 1536 out of 1536...
+N = 1536 => mult data cache (D1) misses:	read:	4,534,873,160;	write:	592,499
+N = 1536 => tmult data cache (D1) misses:	read:	913,652,760;	write:	887,795
+
+
+Generating plots...
+Could not find/open font when opening font "arial", using internal non-scalable font
+Could not find/open font when opening font "arial", using internal non-scalable font
+
+
