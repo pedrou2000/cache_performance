@@ -56,12 +56,12 @@ In order to run the `bash scripts` used to generate the plots, the command `bash
 - `ex4.sh`: Very similar to `cachegrind.sh` script, it varies the caches sizes, ways and linesize. It creates different lists with the different things we wanted to vary in order to study the performance when these numbers changed. We chose to vary the L1 size, LL size, L1 number of ways, LL number of ways and the linesize or blocksize (basically everything we are allowed to vary with `cachegrind`). Each thing which varies has an associated list with the corresponding values. Then the script runs the program mult (matrix multiplication) and tmult (transposed matrix multiplication). For every parameter varied a plot is created showing the number of cache writing misses for each dimension of the matrix and another plot showing the number of cache reading misses. On the default configuration it varyies the L1 cache size with the following values: 1KB, 2KB, 4KB, 8KB and 16KB. 
 
 
-For example, you can run the shell script to create a plot just using the command `bash slow_fast_time.sh`. This script creates a plot on the execution times of summing all the elements in matrices of different dimensions. You can select a long or short execution or you can manually adjust the following parameters at the beginning of the script:
-    - `Ninicio`: the initial dimension of the matrix to be summed.
-    - `Npaso`: the increments added to the initial value in each step of the loop.
-    - `Nfinal`: the final or largest dimension of the matrix to be summed.
-    - `fDAT`: the name of the file where the data will be saved (it will be automatically created if it does not exist yet).
-    - `fPNG`: the name of the file where the plot will be saved (it will be automatically created if it does not exist yet).
+Each script can be adjusted through its different variables, defined at its top. For example, you can run the shell script to create a plot just using the command `bash slow_fast_time.sh`. You can select a long or short execution or you can manually adjust the following parameters at the beginning of the script:
+- `Ninicio`: the initial dimension of the matrix to be summed.
+- `Npaso`: the increments added to the initial value in each step of the loop.
+- `Nfinal`: the final or largest dimension of the matrix to be summed.
+- `fDAT`: the name of the file where the data will be saved (it will be automatically created if it does not exist yet).
+- `fPNG`: the name of the file where the plot will be saved (it will be automatically created if it does not exist yet).
 
 
 
