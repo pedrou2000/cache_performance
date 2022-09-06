@@ -34,8 +34,8 @@ mD1mw=() # almacena el numero de fallos cache en escritura de la mult. normal
 mtD1mr=() # almacena el numero de fallos cache en lectura de la mult. traspuesta
 mtD1mw=() # almacena el numero de fallos cache en escritura de la mult. traspuesta
 
-srcDir=src # directorio con los el codigo y ejecutables
-resultsDir=ex3_results # directorio donde guardaremos los resultados
+srcDir=../	 # directorio con los el codigo y ejecutables
+resultsDir=../../results/ex3_results # directorio donde guardaremos los resultados
 
 fDAT=${resultsDir}/mult.dat # nombre archivo con los resultados numericos
 fPNG_cache=${resultsDir}/mult_cache.png # archivo donde guardamos el plot de los fallos de cache

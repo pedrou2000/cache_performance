@@ -22,8 +22,8 @@ else
 	Npaso=$((64)) # salto en el tamaño de las matrices
 fi
 
-srcDir=src # directorio con los el codigo y ejecutables
-resultsDir=ex2_results # directorio donde guardaremos los resultados
+srcDir=../	 # directorio con los el codigo y ejecutables
+resultsDir=../../results/ex2_results # directorio donde guardaremos los resultados
 
 fDAT_slow=slow_cahegrind.dat # nombre archivo con los resultados numericos del programa slow
 fDAT_fast=fast_cahegrind.dat # nombre archivo con los resultados numericos del programa fast

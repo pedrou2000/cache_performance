@@ -8,7 +8,7 @@
 P=7 # = (3 mod 7) + 4
 scale=7 # precision en la normalizacion
 
-longExecution=$((1)) # variable que determina si queremos la ejecucion de prueba o la larga
+longExecution=$((0)) # variable que determina si queremos la ejecucion de prueba o la larga
 
 if [ $longExecution = 0 ]; then # vemos si es menor o igual
 	echo "PROGRAMA CORTO"
@@ -24,8 +24,8 @@ else
 	repsPerN=20 # repeticion por cada tamaño de matriz
 fi
 
-srcDir=src # directorio con los el codigo y ejecutables
-resultsDir=ex1_results # directorio donde guardaremos los resultados
+srcDir=../	 # directorio con los el codigo y ejecutables
+resultsDir=../../results/ex1_results # directorio donde guardaremos los resultados
 
 fDAT=${resultsDir}/slow_fast_time.dat # nombre archivo con los resultados numericos
 fPNG=${resultsDir}/slow_fast_time.png # nombre archivo donde guardamos el plot de gnuplot
