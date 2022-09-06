@@ -24,7 +24,7 @@ In order to carry out this project, several tools and programming languages were
 
 
 
-## 3. Learning outcomes
+## 3. Learning Outcomes
 
 These project required a deep level understanding of the technologies used. The main learning outcomes were:
 - Understanding the impact that caches have on the performance of algorithms.
@@ -48,7 +48,7 @@ When the dependicies are satisfied, the Makefile can be used to build the code. 
 3. You can perform a matrix multimplication of dimension n and get the execution time using the command `./multiplication <n>`.
 4. You can alternatively perform the transpose matrix multimplication of dimension n and get the execution time using the command `./tmultiplication <n>`.
 
-### Bash scripts
+### Bash Scripts
 In order to run the `bash scripts` used to generate the plots, the command `bash <name_of_the_script>` can be run after changing the terminal's directory location to the `bash_scripts` folder (`cd bash_scripts`). These are some short explanations on what each script does:
 - `cachegrind.sh`: Runs the `fast` and `slow` programs using different sizes, ways and linesize of the L1 cache to finally plot the results on the relation between the size of the cache and the number of cache misses.
 - `mult.sh`: Runs the `multiplication` and `tmultiplication` programs to obtain statistics about the number of cache misses and execution time given different matrix sizes. It also generates plots in order to easaily compare the results.
